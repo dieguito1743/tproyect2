@@ -14,13 +14,13 @@ import java.util.Properties;
 public class DbConnection {
 
     Connection con = null;
-    final private String url;
-    final private String user;
-    final private String pass;
+    private final String url = "jdbc:mysql://sql10.freesqldatabase.com/sql10244983";
+    private final String user = "sql10244983";
+    private final String pass = "SDRZrhdYuB";
 
     public DbConnection() {
         
-        Properties prop = new Properties();
+        /*Properties prop = new Properties();
 
         try {
 
@@ -31,12 +31,15 @@ public class DbConnection {
             prop.load(input);
         } catch (IOException ex) {
             ex.printStackTrace();
-        }
+        }*/
 
         //get value from Properties file 
-        url = prop.getProperty("url", "");
-        user = prop.getProperty("username", "");
-        pass = prop.getProperty("password", "");
+        //url = prop.getProperty("url", "");
+        //user = prop.getProperty("username", "");
+        //pass = prop.getProperty("password", "");
+    	System.out.println(" URL " + url);
+    	System.out.println(" USER " + user);
+    	System.out.println(" PASS " + pass);
 
     }
 
