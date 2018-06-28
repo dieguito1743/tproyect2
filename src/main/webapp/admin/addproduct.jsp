@@ -14,8 +14,8 @@
 
 <c:choose>
     <c:when test="${empty product.photo}">
-        <c:set var="photo" value="../upload/yourCart.png"/>
-        <c:set var="photoscr" value="upload/yourCart.png"/>
+        <c:set var="photo" value="../upload/greenCube.png"/>
+        <c:set var="photoscr" value="upload/greenCube.png"/>
     </c:when>
     <c:otherwise>
         <c:set var="photo" value="../${product.photo}"/>

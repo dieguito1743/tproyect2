@@ -8,7 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     position: relative;
-    font-weight:400px;
+    font-weight:400;
 }
 
 ul li {
@@ -1500,7 +1500,7 @@ h2.title {
 }
 
 
-.or{
+.lor{
     background: #2dcc70;
     border-radius: 40px;
     color: #FFFFFF;
@@ -2138,7 +2138,7 @@ h2.title {
 
 .rating-area {
     border: 1px solid #F7F7F0;
-    direction: block;
+    display: block;
     overflow: hidden;
 }
 
