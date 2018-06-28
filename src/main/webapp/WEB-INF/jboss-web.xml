@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jboss-web>
-  <context-root>/IngSoftware</context-root>
+  <context-root>/yourCart</context-root>
 </jboss-web>
